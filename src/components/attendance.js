@@ -66,7 +66,7 @@ function AttendanceStatus (){
       
       
       <Grid item xs ={12}md ={3}> 
-       <Grid ><Typography variant ="h6">Action </Typography ><Stack container direction ="row"spacing ={12}><Paper elevation ={3}sx ={{p :2}}> 
+       <Grid ><Typography variant ="h6">Action </Typography ><Stack container direction ="row"spacing ={0.1}><Paper elevation ={3}sx ={{ml:2}}> 
           
        <Typography variant ="h6">04:04:39 PM</Typography > 
         <Typography variant ="body1">Wed 06, Dec 2023 </Typography > 

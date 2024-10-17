@@ -45,23 +45,29 @@ function AttendanceTable (){
   
   ]; 
 
-  return (
-    <Grid container spacing={2}>
-      <Grid item xs={12}>
-        <Paper elevation={3}>
-          <Typography variant="h6">Location </Typography>
+  return ( 
+    <Grid container spacing ={2}> 
+      
+      <Grid item xs ={12}><Paper elevation ={3}>
+          <Typography variant ="h6">Attendance Table </Typography > 
+          
+          
+          
+          
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <Typography variant="body1">Location </Typography>
+            <Typography variant ="body1">31</Typography >             
             <div style={{ display: 'flex' }}>
+              
               {['Location', 'Location'].map((month, index) => (
                 <Chip label={month} key={index} />
               ))}
-            </div>
-          </div>
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell>Location </TableCell>
+            </div > 
+          
+          </div > 
+          <Table > 
+            <TableHead > 
+              <TableRow > 
+                <TableCell >Date </TableCell > 
                 <TableCell>Attendance Visual </TableCell>
                 <TableCell>Effective Hours</TableCell>
                 <TableCell>Gross Hours</TableCell>
